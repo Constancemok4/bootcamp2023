@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
     <title>Codetribe</title>
+        <head>
+            <link rel="stylesheet" href="./style.css" />
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            </head>
     <body>
         <head>
-            <div style="background: silver;">
+            <div style="background: rgb(184, 198, 167);">
             <table style="width: 100%;">
                 <tr>
                     <td>
@@ -36,39 +40,38 @@
         <main>
         <table style="width: 100%; height: 100px">  
             <tr>
-                <td style="padding-left: 40px; padding-top: 50px;">
-                    <h1>Constance's Profile</h1>
+                <td style="padding-left: 10px; padding-top: 50px;">
+                    <h1>About Me</h1>
                     <p>Hi👋, My name is Constance Mokalapa and I am a software developer. <br>My goal is to create websites that helps businesses/Orginizations address
                      business challenges and meet their needs.<br> My expertise lies within front-end web apps and the main languages
                     in my <br>tech stack are HTML/CSS and Javascript. I'm a life long learner. I am a firm believer that consistency <br>and always showing up drives failure away. I love to reading, coding
                     and drinking coffee.</p>
-                <td align="right" style="padding-right: 20vh; padding-top: 30px; padding-bottom: 30px;">
-                    <img src="https://i.pinimg.com/originals/fc/45/e0/fc45e09052fca0229db013001a2e262d.jpg" alt="" width="300px" height="300px" style="border-radius: 40%; object-fit: cover; border: 5px solid lightcoral;"/>
+                <td align="right" style="padding-right: 20vh; padding-top: 20px; padding-bottom: 20px;">
+                    <img src="https://i.pinimg.com/originals/fc/45/e0/fc45e09052fca0229db013001a2e262d.jpg" alt="" width="250px" height="250px" style="border-radius: 50%; object-fit: cover; border: 10px solid rgb(24, 19, 24);"/>
 
                 </td>
             </tr>
         </table>
         </main>
         <footer>
-            <table  style="width: 100%; height: 100px; background-color: rgb(146, 159, 170);">
+            <table  style="width: 100%; height: 100px; background-color: rgb(93, 111, 116);">
                 <tr>
-                    <td style="padding-left: 0vh;"><strong>Address:</strong>
-                        <br>14 cloyne street
-                        <br>kenmare, krugersdorp
-                        <br>1739
+                    <td id="place" style="padding-left: 0vh;"><strong>Address:</strong>
+                        <br>Next to police station
+                        <br>masemola, limpopo
+                        <br>1060
                     </td>
-                    <td colspane="2">
-                            <iframe src="https://www.bing.com/maps?osid=c16bf567-1879-4640-bb57-726a99bdbcff&cp=-26.017667~27.963798&lvl=10&v=2&sV=2&form=S00027" width="100" height="100" padding-right="0"></iframe>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="padding-right: 20vh;">
-                    <p>
-                        <strong>Phone:</strong>
-                        <br>(+2779) 247 139
-                    </p>
-                    </td>
-                </tr>
+                    <tr>
+                        <td>
+                            <div class="map">
+                                <iframe width="150" height="150" frameborder="0" src="https://www.bing.com/maps/embed?h=250&w=250&cp=-25.528502031747493~28.413227152547165&lvl=12.229501793087966&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+                                </iframe>
+                                <div style="white-space: nowrap; text-align: center; width: 250px; padding: 6px 0;">
+                                   <a id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=-25.528502031747493~28.413227152547165&amp;sty=r&amp;lvl=12.229501793087966&amp;rtp=~pos.-25.528502031747493_28.413227152547165____&amp;FORM=MBEDLD">Get Directions</a>
+                               </div>
+                           </div>
+                        </td>
+                    </tr>
             </table>
         </footer>
     </body>

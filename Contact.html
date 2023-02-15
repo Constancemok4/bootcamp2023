@@ -3,6 +3,11 @@
     <title>Contact</title>
     <body>
         <head>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="./style.css" />
+        </head>
+        <body>
+            <head>
             <div style="background: silver;">
             <table style="width: 100%;">
                 <tr>
@@ -30,29 +35,10 @@
             </table>
             </div>
         </head>
-        <div class="hero" class="content">
-            <video autoplay loop muted plays-inline style="object-fit: cover; width: 100%; height: 600px;">
-                <source src="Assets/video/video.mp4" type="video/mp4">
-            <h1 style="color: #fff; text-align: center;">Constance Portfolio</h1>
-            </video>
-        </div>
         <main>
-        <table style="width: 110%; height: 100px">  
-            <tr>
-                <td style="padding-left: 40px; padding-top: 50px;">
-                    <h1>Constance's Profile</h1>
-                    <p>Hi👋, My name is Constance Mokalapa and I am a software developer. <br>My goal is to create websites that helps businesses/Orginizations address
-                     business challenges and meet their needs.<br> My expertise lies within front-end web apps and the main languages
-                    in my <br>tech stack are HTML/CSS and Javascript. I'm a life long learner. I am a firm believer that consistency <br>and always showing up drives failure away. I love to reading, coding
-                    and drinking coffee.</p>
-                <td align="right" style="padding-right: 20vh; padding-top: 30px; padding-bottom: 30px;">
-                    <img src="https://i.pinimg.com/originals/fc/45/e0/fc45e09052fca0229db013001a2e262d.jpg" alt="" width="300px" height="300px" style="border-radius: 40%; object-fit: cover; border: 5px solid lightcoral;"/>
-
-                </td>
-            </tr>
-        </table>
+    
         </main>
-        <footer>
+        <footer id="contact">
             <table  style="width: 100%; height: 100px; background-color: rgb(146, 159, 170);">
                 <tr>
                     <td style="padding-left: 0vh;">
@@ -60,7 +46,8 @@
                             <br>kenmare, krugersdorp
                             <br>1739</p>
                         </td>
-                    <td colspane="2">add a map here</td>
+                    <td colspane="2">
+                    </td>
                 </tr>
                 <tr>
                     <td style="padding-right: 20vh;">
@@ -70,7 +57,26 @@
                     </p>
                     </td>
                 </tr>
-            </table>
+                <h1>Contact Me</h1>
+                <form action="/action_page.php">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last Name:</label><br>
+                    <input type="text" id="lname" name="lname"><br><br>
+                    <textarea id="Message" name="Message" rows="4" cols="50">Enter your Message here...</textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            <section id="social">
+                <h2>Social Media</h2>
+                <p>you can find me on....</p>
+                <ul>
+                  <li><a href="https://www.instagram.com/constance_mokalapa/" target="_blank" class="fa fa-instagram"></a></li>
+                  <li><a href="https://www.linkedin.com/in/constance-mokalapa-876901192" target="_blank" class="fa fa-linkedin"></a></li>
+                  <li><a href="https://github.com/Constancemok4" class="fa fa-github" target="_blank"></a></li>
+                  <li><a href="mailto:constancemok4@gmail.com">Send email</a></li>
+                </ul>
+              </section>
+              </table>
         </footer>
         </body>
 </html>
